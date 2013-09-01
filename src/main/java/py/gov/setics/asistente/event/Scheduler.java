@@ -64,7 +64,7 @@ public class Scheduler {
 	private void timeout(Timer timer) {
 		final EventConfig config = (EventConfig) timer.getInfo();
 		logger.info("Timeout: " + timer);
-		// event.fire((TestEvent) config.getEvent());
+		event.fire((TestEvent) config.getEvent());
 		// beanManager.fireEvent(config.getEvent(), config.getQualifiers());
 	}
 

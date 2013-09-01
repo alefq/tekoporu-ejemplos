@@ -9,6 +9,7 @@ import org.ticpy.tekoporu.annotation.Name;
 import org.ticpy.tekoporu.stereotype.ViewController;
 import org.ticpy.tekoporu.template.AbstractListPageBean;
 
+import py.gov.setics.asistente.business.EmailBC;
 import py.gov.setics.asistente.business.EventBC;
 import py.gov.setics.asistente.domain.Bookmark;
 
@@ -24,6 +25,9 @@ public class EventMB extends AbstractListPageBean<Bookmark, Long> implements
 
 	@Inject
 	private EventBC eventBC;
+	
+	@Inject
+	private EmailBC emailBC;
 
 	@Override
 	protected List<Bookmark> handleResultList() {
@@ -33,6 +37,7 @@ public class EventMB extends AbstractListPageBean<Bookmark, Long> implements
 
 	public String setTimer() {
 		eventBC.setTimer();
+		emailBC.enviarAviso();
 		return null;
 	}
 
