@@ -12,10 +12,10 @@
 	<h:form>
 		<h2>Click button to download PDF file</h2>
 		<br />
-		<h:commandButton id="button" value="Download PDF"
-			action="#{downloadMB.downloadFile}">
-			<f:param name="fileId" value="1"></f:param>
-		</h:commandButton>
+		<h:outputLink value="/tekoporu-ejemplos/download">
+			<h:outputText value="Descargar archivo" />
+			<f:param name="fileId" value="12"></f:param>
+		</h:outputLink>
 	</h:form>
 </h:body>
 </html>
