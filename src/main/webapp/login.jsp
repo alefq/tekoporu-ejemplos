@@ -1,24 +1,24 @@
 <html>
 <head>
 	<!-- include primefaces stylesheets -->
-	<link type="text/css" rel="stylesheet" href="/asistente/javax.faces.resource/themes/sam/theme.css.jsf?ln=primefaces&amp;amp;v=2.2.1" />
-	<script type="text/javascript" src="/asistente/javax.faces.resource/jquery/jquery.js.jsf?ln=primefaces&amp;v=2.2.1"></script>
-	<script type="text/javascript" src="/asistente/javax.faces.resource/core/core.js.jsf?ln=primefaces&amp;v=2.2.1"></script>
-	<script type="text/javascript" src="/asistente/javax.faces.resource/themeswitcher/themeswitcher.js.jsf?ln=primefaces&amp;v=2.2.1"></script>
-	<link type="text/css" rel="stylesheet" href="/asistente/javax.faces.resource/jquery/ui/jquery-ui.css.jsf?ln=primefaces&amp;v=2.2.1" />
-	<link type="text/css" rel="stylesheet" href="/asistente/javax.faces.resource/wijmo/wijmo.css.jsf?ln=primefaces&amp;v=2.2.1" />
-	<script type="text/javascript" src="/asistente/javax.faces.resource/jquery/ui/jquery-ui.js.jsf?ln=primefaces&amp;v=2.2.1"></script>
-	<script type="text/javascript" src="/asistente/javax.faces.resource/wijmo/wijmo.js.jsf?ln=primefaces&amp;v=2.2.1"></script>
-	<script type="text/javascript" src="/asistente/javax.faces.resource/menu/menu.js.jsf?ln=primefaces&amp;v=2.2.1"></script>
-	<link type="text/css" rel="stylesheet" href="/asistente/javax.faces.resource/toolbar/toolbar.css.jsf?ln=primefaces&amp;v=2.2.1" />
-	<script type="text/javascript" src="/asistente/javax.faces.resource/button/button.js.jsf?ln=primefaces&amp;v=2.2.1"></script>
-	<script type="text/javascript" src="/asistente/javax.faces.resource/confirmdialog/confirmdialog.js.jsf?ln=primefaces&amp;v=2.2.1"></script>
-	<link type="text/css" rel="stylesheet" href="/asistente/javax.faces.resource/fieldset/fieldset.css.jsf?ln=primefaces&amp;v=2.2.1" />
-	<script type="text/javascript" src="/asistente/javax.faces.resource/fieldset/fieldset.js.jsf?ln=primefaces&amp;v=2.2.1"></script>
-	<link type="text/css" rel="stylesheet" href="/asistente/javax.faces.resource/messages/messages.css.jsf?ln=primefaces&amp;v=2.2.1" />
-	<link type="text/css" rel="stylesheet" href="/asistente/javax.faces.resource/growl/assets/growl.css.jsf?ln=primefaces&amp;v=2.2.1" />
-	<script type="text/javascript" src="/asistente/javax.faces.resource/growl/growl.js.jsf?ln=primefaces&amp;v=2.2.1"></script>
-	<script type="text/javascript" src="/asistente/javax.faces.resource/ajaxstatus/ajaxstatus.js.jsf?ln=primefaces&amp;v=2.2.1"></script>
+	<link type="text/css" rel="stylesheet" href="/tekoporu-ejemplos/javax.faces.resource/themes/sam/theme.css.jsf?ln=primefaces&amp;amp;v=2.2.1" />
+	<script type="text/javascript" src="/tekoporu-ejemplos/javax.faces.resource/jquery/jquery.js.jsf?ln=primefaces&amp;v=2.2.1"></script>
+	<script type="text/javascript" src="/tekoporu-ejemplos/javax.faces.resource/core/core.js.jsf?ln=primefaces&amp;v=2.2.1"></script>
+	<script type="text/javascript" src="/tekoporu-ejemplos/javax.faces.resource/themeswitcher/themeswitcher.js.jsf?ln=primefaces&amp;v=2.2.1"></script>
+	<link type="text/css" rel="stylesheet" href="/tekoporu-ejemplos/javax.faces.resource/jquery/ui/jquery-ui.css.jsf?ln=primefaces&amp;v=2.2.1" />
+	<link type="text/css" rel="stylesheet" href="/tekoporu-ejemplos/javax.faces.resource/wijmo/wijmo.css.jsf?ln=primefaces&amp;v=2.2.1" />
+	<script type="text/javascript" src="/tekoporu-ejemplos/javax.faces.resource/jquery/ui/jquery-ui.js.jsf?ln=primefaces&amp;v=2.2.1"></script>
+	<script type="text/javascript" src="/tekoporu-ejemplos/javax.faces.resource/wijmo/wijmo.js.jsf?ln=primefaces&amp;v=2.2.1"></script>
+	<script type="text/javascript" src="/tekoporu-ejemplos/javax.faces.resource/menu/menu.js.jsf?ln=primefaces&amp;v=2.2.1"></script>
+	<link type="text/css" rel="stylesheet" href="/tekoporu-ejemplos/javax.faces.resource/toolbar/toolbar.css.jsf?ln=primefaces&amp;v=2.2.1" />
+	<script type="text/javascript" src="/tekoporu-ejemplos/javax.faces.resource/button/button.js.jsf?ln=primefaces&amp;v=2.2.1"></script>
+	<script type="text/javascript" src="/tekoporu-ejemplos/javax.faces.resource/confirmdialog/confirmdialog.js.jsf?ln=primefaces&amp;v=2.2.1"></script>
+	<link type="text/css" rel="stylesheet" href="/tekoporu-ejemplos/javax.faces.resource/fieldset/fieldset.css.jsf?ln=primefaces&amp;v=2.2.1" />
+	<script type="text/javascript" src="/tekoporu-ejemplos/javax.faces.resource/fieldset/fieldset.js.jsf?ln=primefaces&amp;v=2.2.1"></script>
+	<link type="text/css" rel="stylesheet" href="/tekoporu-ejemplos/javax.faces.resource/messages/messages.css.jsf?ln=primefaces&amp;v=2.2.1" />
+	<link type="text/css" rel="stylesheet" href="/tekoporu-ejemplos/javax.faces.resource/growl/assets/growl.css.jsf?ln=primefaces&amp;v=2.2.1" />
+	<script type="text/javascript" src="/tekoporu-ejemplos/javax.faces.resource/growl/growl.js.jsf?ln=primefaces&amp;v=2.2.1"></script>
+	<script type="text/javascript" src="/tekoporu-ejemplos/javax.faces.resource/ajaxstatus/ajaxstatus.js.jsf?ln=primefaces&amp;v=2.2.1"></script>
 	<!-- End include primefaces stylesheets  -->
 	
 	<title>Login</title>
